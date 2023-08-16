@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="Das Park Gstaad Hotel in der Schweiz ist eines der luxuriösesten Hotels. Kontaktiere uns.">
+  <meta property="og:site_name"
+    content="Das Hotel wurde komplett renoviert und bietet nun brandneue und moderne Zimmer und Suiten, die mit den neuesten Annehmlichkeiten ausgestattet sind.">
+  <meta property="og:url" content="offiziell-spieleslotautomaten.com">
+  <meta property="og:image" content="offiziell-spieleslotautomaten.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="Das Park Gstaad Hotel in der Schweiz ist eines der luxuriösesten Hotels. Kontaktiere uns.">
+  <meta name="twitter:description"
+    content="Das Hotel wurde komplett renoviert und bietet nun brandneue und moderne Zimmer und Suiten, die mit den neuesten Annehmlichkeiten ausgestattet sind.">
+  <meta name="twitter:site" content="offiziell-spieleslotautomaten.com">
+  <meta name="twitter:image" content="offiziell-spieleslotautomaten.com/main.png">
+  <meta name="description"
+    content="Das Hotel wurde komplett renoviert und bietet nun brandneue und moderne Zimmer und Suiten, die mit den neuesten Annehmlichkeiten ausgestattet sind.">
+  <title>Das Park Gstaad Hotel in der Schweiz ist eines der luxuriösesten Hotels. Kontaktiere uns.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Telex-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/SpectralSC-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page page_2">
+    <!-- Начало header -->
+    <?php
+    include 'header2.php';
+    ?>
+    <!-- Конец header -->
+    <main class="main-2">
+      <div class="contacts contacts_2">
+        <div class="container">
+          <div class="contacts__content">
+            <div class="contacts__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.875526484031!2d7.286242876900231!3d46.470973465704304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ef1aeed5a67b7%3A0x5c4b98d205c7df4c!2sPark%20Gstaad!5e0!3m2!1sde!2sde!4v1688631649270!5m2!1sde!2sde"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contacts__descr">
+              <h1 class="contacts__title tt-2">
+                Kontaktiere uns
+              </h1>
+              <p class="contacts__text tx-1">
+                Füllen Sie das Formular aus und wir werden uns mit Ihnen in Verbindung setzen. Wir können jede Ihrer
+                Fragen beantworten.
+              </p>
+              <form class="form" action="#!" name="form" autocomplete="off">
+                <div class="form__inputs">
+                  <input class="form__input tx-1" type="text" name="text" id="text" placeholder="Name..." required>
+                  <input class="form__input tx-1" type="email" name="email" id="email" placeholder="Mailen..." required>
+                </div>
+                <button class="form__button but-1" type="submit">
+                  Schicken
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Начало footer -->
+    <?php
+    include 'footer2.php';
+    ?>
+    <!-- Конец footer -->
+  </div>
+</body>
+
+</html>

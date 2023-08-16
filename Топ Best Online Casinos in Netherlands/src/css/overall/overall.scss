@@ -1,0 +1,37 @@
+ .container {
+   max-width: var(--container);
+   margin: 0 auto;
+   padding: 0 var(--container-step);
+  
+   @media (max-width: 374px) {
+    padding: 0 var(--container-step-mobile);
+  }
+ }
+ 
+ .page {
+   display: flex;
+   flex-direction: column;
+   font-family: var(--font-main);
+   min-height: 100vh;
+   overflow: hidden;
+   background-color: var(--background-page);  
+  }
+
+ main {
+   flex: 1 1 auto;
+
+   &:not(:last-child) {
+     margin-bottom: 60px;
+   }
+ }
+
+ .visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   border: 0;
+   clip: rect(0 0 0 0);
+ }

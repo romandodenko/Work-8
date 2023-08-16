@@ -1,0 +1,224 @@
+:root {
+  // Шрифты
+  --font-main: "Mako", sans-serif; // главный шрифт на странице
+  --font-second: "Anybody", sans-serif; // второй шрифт на странице
+  // Контейнер
+  --container-width: 1120px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #f3f3f3; // бекграунд страницы
+  --background-menu: #f3f3f3;
+  --blue: #2849b7;
+  --white: #ffffff;
+  --black: #000000;
+
+  --hover: rgba(40, 73, 183, 0.06); // цвет при ховере
+  --active: rgba(40, 73, 183, 0.1); // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 120px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.webp {
+  & .about__inner {
+    background-image: url(../../img/about.webp);
+  }
+}
+
+.no-webp {
+  & .about__inner {
+    background-image: url(../../img/about.jpg);
+  }
+}
+
+.tt-1 {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 120%;
+
+  @media (max-width: 1440px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
+.tt-2 {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+
+  & span {
+    flex-shrink: 0;
+  }
+
+  &::after {
+    content: "";
+    flex: 0 1 100%;
+    height: 1px;
+    background-color: var(--black);
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.tt-3 {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  width: fit-content;
+  box-shadow: 0px -1px 11px 0px rgba(22, 7, 65, 0.12);
+  background-color: #eeedef;
+  padding: 16px;
+
+  @media (max-width: 991px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+.tx-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.tx-2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.but-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 25px;
+  border-bottom: 1px solid var(--blue);
+  min-width: 96px;
+  min-height: 42px;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  color: var(--black);
+  transition: background-color .3s ease-in-out;
+
+  & img {
+    display: block;
+    width: 19px;
+    height: 16px;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--hover);
+  }
+
+  &:active {
+    background-color: var(--active);
+    transition-duration: .1s;
+  }
+}

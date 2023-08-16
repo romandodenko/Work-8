@@ -1,0 +1,297 @@
+:root {
+  // Шрифты
+  --font-main: "RobotoCondensed", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1380px; // ширина контейнера
+  --container-step: 24px; // падинги по бокам на пк 
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #070b22; // бекграунд страницы
+  --pink: #ff0069;
+  --white: #ffffff;
+  --hover: 0.5; // цвет при ховере
+  --active: 0.7; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 374px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.webp {
+  & .hero {
+    background-image: url(../../img/hero.webp);
+
+    @media (max-width: 600px) {
+      background-image: url(../../img/hero-2.webp);
+    }
+  }
+}
+
+
+.no-webp {
+  & .hero {
+    background-image: url(../../img/hero.png);
+
+    @media (max-width: 600px) {
+      background-image: url(../../img/hero-2.png);
+    }
+  }
+}
+
+.num {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 141px;
+  line-height: 1;
+
+  @media (max-width: 1440px) {
+    font-size: 121px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 101px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 81px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 61px;
+  }
+}
+
+.tt-1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  @media (max-width: 1440px) {
+    font-size: 60px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 55px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 52px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 46px;
+  }
+}
+
+.tt-2 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  @media (max-width: 374px) {
+    font-size: 37px;
+  }
+}
+
+.tx-1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  @media (max-width: 991px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 26px;
+  }
+}
+
+.tx-2 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 150%;
+
+  @media (max-width: 374px) {
+    font-size: 20px;
+  }
+}
+
+.but-1 {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 43px;
+  width: 100%;
+  min-height: 130px;
+  padding: 15px 25px;
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.64);
+  background: linear-gradient(315deg, #ff0069 33.85%, #257fe9 100%), linear-gradient(136deg, rgba(255, 255, 255, 0) 0%, #fff 27.08%, rgba(255, 255, 255, 0) 100%);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--white);
+  text-align: center;
+  transition: opacity .3s ease-in-out;
+  animation-name: box-animate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 200%;
+    margin-left: 50px;
+    background: #fff;
+    opacity: .5;
+    background: -webkit-gradient(linear,
+        left top,
+        left bottom,
+        from(rgba(255, 255, 255, 0.1)),
+        color-stop(50%, white),
+        to(rgba(255, 255, 255, 0.1)));
+    background: linear-gradient(to bottom,
+        rgba(255, 255, 255, 0.3) 0%,
+        white 50%,
+        rgba(255, 255, 255, 0.3) 100%);
+    left: -40px;
+    top: -50px;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    -webkit-animation: movingFlare 3s ease-in-out 0.05s infinite;
+    animation: movingFlare 3s ease-in-out 0.05s infinite;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 40px;
+    min-height: 100px;
+  }
+
+  @media (max-width: 600px) {
+    min-height: 88px;
+    font-size: 30px;
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      opacity: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    opacity: var(--hover);
+  }
+
+  &:active {
+    opacity: var(--active);
+    transition-duration: .1s;
+  }
+}
+
+@-webkit-keyframes movingFlare {
+  0% {
+    left: -30px;
+    margin-left: 0px;
+  }
+
+  30% {
+    left: 110%;
+    margin-left: 80px;
+  }
+
+  100% {
+    left: 110%;
+    margin-left: 80px;
+  }
+}
+
+@keyframes movingFlare {
+  0% {
+    left: -30px;
+    margin-left: 0px;
+  }
+
+  30% {
+    left: 110%;
+    margin-left: 80px;
+  }
+
+  100% {
+    left: 110%;
+    margin-left: 80px;
+  }
+}
+
+@keyframes box-animate {
+  0% {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.64);
+  }
+
+  20% {
+    box-shadow: 0px 1px 8px 0px rgba(179, 14, 14, 1);
+  }
+
+  40% {
+    box-shadow: 0px 1px 8px 0px rgba(83, 206, 12, 1);
+  }
+
+  60% {
+    box-shadow: 0px 1px 8px 0px rgba(178, 196, 15, 1);
+  }
+
+  80% {
+    box-shadow: 0px 1px 8px 0px rgba(13, 68, 170, 1);
+  }
+
+  100% {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.64);
+  }
+}

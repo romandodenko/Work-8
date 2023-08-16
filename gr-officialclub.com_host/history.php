@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Το καλύτερο αθλητικό μπαρ στην Ελλάδα. Πάντα νέα και καυτά αθλητικά γεγονότα. Ιστορία του συλλόγου">
+  <meta property="og:site_name"
+    content="Sports bar in grece - fan club της ελληνικής ποδοσφαιρικής ομάδας 'Ολυμπιακός', κρατήσεις μετάδοσης, οργάνωση εκδηλώσεων, αθλητικές εκδηλώσεις, πρωτάθλημα ποδοσφαίρου στην Ελλάδα">
+  <meta property="og:url" content="gr-officialclub.com">
+  <meta property="og:image" content="gr-officialclub.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Το καλύτερο αθλητικό μπαρ στην Ελλάδα. Πάντα νέα και καυτά αθλητικά γεγονότα. Ιστορία του συλλόγου">
+  <meta name="twitter:description"
+    content="Sports bar in grece - fan club της ελληνικής ποδοσφαιρικής ομάδας 'Ολυμπιακός', κρατήσεις μετάδοσης, οργάνωση εκδηλώσεων, αθλητικές εκδηλώσεις, πρωτάθλημα ποδοσφαίρου στην Ελλάδα">
+  <meta name="twitter:site" content="gr-officialclub.com">
+  <meta name="twitter:image" content="gr-officialclub.com/main.png">
+  <meta name="description"
+    content="Sports bar in grece - fan club της ελληνικής ποδοσφαιρικής ομάδας 'Ολυμπιακός', κρατήσεις μετάδοσης, οργάνωση εκδηλώσεων, αθλητικές εκδηλώσεις, πρωτάθλημα ποδοσφαίρου στην Ελλάδα">
+  <title>Το καλύτερο αθλητικό μπαρ στην Ελλάδα. Πάντα νέα και καυτά αθλητικά γεγονότα. Ιστορία του συλλόγου</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start benefits -->
+      <section class="benefits benefits_2">
+        <div class="container">
+          <div class="benefits__head">
+            <h1 class="benefits__title tt-2">
+              Ιστορία του συλλόγου
+            </h1>
+            <p class="benefits__text benefits__text_top tx-2">
+              Η ποδοσφαιρική ομάδα του Ολυμπιακού είναι ένας από τους πιο επιτυχημένους και γνωστούς συλλόγους στην
+              Ελλάδα και στον κόσμο. Ο σύλλογος εδρεύει στον Πειραιά, την περιοχή του λιμανιού της Αθήνας, και αποτελεί
+              μέρος του αθλητικού οργανισμού Olympiacos Syndesmos (Ολυμπιακός Συναθλητισμός), ο οποίος περιλαμβάνει
+              επίσης άλλα αθλητικά τμήματα όπως το μπάσκετ, το βόλεϊ και το πόλο. Ακολουθεί μια σύντομη ιστορία αυτού
+              του εξαιρετικού συλλόγου:
+            </p>
+          </div>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <h2 class="benefits__subtitle tt-3">
+                Ίδρυση και πρώτα χρόνια:
+              </h2>
+              <p class="benefits__text tx-1">
+                Η ποδοσφαιρική ομάδα του Ολυμπιακού ιδρύθηκε το 1925 και γρήγορα έγινε ένας από τους πιο επιτυχημένους
+                συλλόγους στην Ελλάδα. Στις αρχές της ιστορίας του, ο Ολυμπιακός κατέκτησε αρκετές φορές τον εθνικό
+                τίτλο, καθιερώνοντας τον εαυτό του ως μια ισχυρή ποδοσφαιρική ομάδα.
+              </p>
+            </li>
+            <li class="benefits__item">
+              <h2 class="benefits__subtitle tt-3">
+                Άνοδος και ευρωπαϊκές επιτυχίες:
+              </h2>
+              <p class="benefits__text tx-1">
+                Από τις αρχές της δεκαετίας του 1950, ο Ολυμπιακός άρχισε να κυριαρχεί στο ελληνικό ποδόσφαιρο,
+                κατακτώντας πολλούς τίτλους εθνικών πρωταθλημάτων και κυπέλλων. Το 1959, η ομάδα πραγματοποίησε την
+                πρώτη της διεθνή εμφάνιση, συμμετέχοντας στο Κύπελλο Πρωταθλητριών Ευρώπης (σήμερα UEFA Champions
+                League).
+              </p>
+              <p class="benefits__text tx-1">
+                Ωστόσο, ο Ολυμπιακός έκανε μια πραγματική επανάσταση τη δεκαετία του 1970. Τη σεζόν 1979/1980, ο
+                σύλλογος έφτασε μέχρι τα ημιτελικά του Κυπέλλου Πρωταθλητριών Ευρώπης, κάτι που ήταν ένα απίστευτο
+                επίτευγμα. Αυτό σηματοδότησε την αρχή μιας επιτυχημένης πορείας στη διεθνή σκηνή.
+              </p>
+            </li>
+            <li class="benefits__item">
+              <h2 class="benefits__subtitle tt-3">
+                Σύγχρονες επιτυχίες:
+              </h2>
+              <p class="benefits__text tx-1">
+                Από τις αρχές της δεκαετίας του 2000, ο Ολυμπιακός συνέχισε να κυριαρχεί στο ελληνικό ποδόσφαιρο,
+                κατακτώντας τακτικά πρωταθλήματα και κύπελλα. Ο σύλλογος συμμετείχε επίσης σε ευρωπαϊκές διοργανώσεις,
+                φτάνοντας στις φάσεις των πλέι οφ του Champions League και του Europa League.
+              </p>
+            </li>
+            <li class="benefits__item">
+              <h2 class="benefits__subtitle tt-3">
+                Βάση φιλάθλων: Ο Ολυμπιακός είναι οπαδός του Ολυμπιακού: 
+              </h2>
+              <p class="benefits__text tx-1">
+                Βάση φιλάθλων: Ο Ολυμπιακός είναι οπαδός του Ολυμπιακού:
+                Η οπαδική βάση του Ολυμπιακού είναι γνωστή για την αφοσίωση και το πάθος της για τον σύλλογο. Η υποστήριξή τους στο γήπεδο της έδρας τους Γεώργιος Καραϊσκάκης στον Πειραιά δημιουργεί πάντα μια θερμή ατμόσφαιρα που βοηθάει την ομάδα στο γήπεδο.
+              </p>
+              <p class="benefits__text tx-1">
+                Ο Ολυμπιακός ποδοσφαιρικός σύλλογος συνεχίζει να είναι σημαντικός παίκτης τόσο στο ελληνικό όσο και στο παγκόσμιο ποδόσφαιρο, κερδίζοντας τις καρδιές των φιλάθλων με τα επιτεύγματα και το πάθος του για το παιχνίδι.
+              </p>
+            </li> 
+          </ul>
+          <div class="benefits__images">
+            <div class="benefits__image benefits__image_1">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/about-1.webp" type="image/webp">
+                <img src="./img/about-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+              </picture>
+            </div>
+            <div class="benefits__image benefits__image_2">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/about-2.webp" type="image/webp">
+                <img src="./img/about-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+              </picture>
+            </div>
+          </div> 
+        </div>
+      </section>
+      <!-- end benefits -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

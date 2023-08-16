@@ -1,0 +1,86 @@
+:root {
+  // Шрифты
+  --font-main: "Montserrat", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 768px; // ширина контейнера
+  --container-step: 24px; // падинги по бокам на пк 
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #112dad; // бекграунд страницы
+  --siz: #76FED6;
+  --yellow: #FAC400;
+  --white: #ffffff;
+  --purple: #5454d1;
+  --d-purple: #3c3ba1;
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 374px) {
+    padding: 0 10px;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tx-1 {
+  font-weight: 900;
+  font-size:54px;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  @media (max-width: 400px) {
+    font-size: 38px;
+  }
+}
+
+.tx-2 {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  @media (max-width: 400px) {
+    font-size: 16px;
+  }
+}
+
+.tx-3 {
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 114%;
+  text-transform: uppercase;
+  text-align: center;
+}

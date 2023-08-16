@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nuevo sports bar en mexico con pantallas gigantes y buena comida.">
+  <meta property="og:site_name"
+    content="This sports bar offers its visitors the best list of live sports broadcasts. All in all, a sports bar in Australia is the perfect place for sports lovers.">
+  <meta property="og:url" content="overview-pokies-australia-club.com">
+  <meta property="og:image" content="overview-pokies-australia-club.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nuevo sports bar en mexico con pantallas gigantes y buena comida.">
+  <meta name="twitter:description"
+    content="This sports bar offers its visitors the best list of live sports broadcasts. All in all, a sports bar in Australia is the perfect place for sports lovers.">
+  <meta name="twitter:site" content="overview-pokies-australia-club.com">
+  <meta name="twitter:image" content="overview-pokies-australia-club.com/main.png">
+  <meta name="description"
+    content="This sports bar offers its visitors the best list of live sports broadcasts. All in all, a sports bar in Australia is the perfect place for sports lovers.">
+  <title>Nuevo sports bar en mexico con pantallas gigantes y buena comida.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Sora-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start popup -->
+      <div class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">Our games are intended for an ADULT audience over the age of 18. Click
+            Accepted to verify your age.</p>
+          <button class="popup__button">Accepted</button>
+        </div>
+      </div>
+      <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__left">
+            <h1 class="hero__title tt-1">
+              Sports bar
+              <span class="tt-2">
+                Top sporting events
+              </span>
+            </h1>
+            <a class="hero__link but-1" href="matches.php">
+              See matches
+            </a>
+            <p class="hero__text tx-1">
+              There is a sports bar in Australia that certainly deserves the title of "best". Here you will find the
+              most extensive and diverse list of sports events broadcast on large screens.
+            </p>
+          </div>
+          <div class="hero__image">
+            <picture>
+              <source media="(min-width: 320px)" srcset="./img/hero.webp" type="image/webp">
+              <img src="./img/hero.jpg" loading="lazy" width="591" height="461" alt="Image">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start matches -->
+      <section class="matches">
+        <div class="container">
+          <h2 class="matches__title tt-2">
+            <span>
+              Matches
+            </span>
+          </h2>
+          <ul class="matches__list">
+            <li class="matches__item">
+              <div class="matches__item-top">
+                <div class="matches__round tx-1">
+                  1st round
+                </div>
+              </div>
+              <div class="matches__item-middle">
+                <div class="matches__teams">
+                  <div class="matches__team tx-1">
+                    <img src="./img/au.png" loading="lazy" width="18" height="12" alt="Australia">
+                    Alexander Vukic
+                  </div>
+                  <div class="matches__team tx-1">
+                    <img src="./img/niger.png" loading="lazy" width="18" height="12" alt="Ng">
+                    Lloyd George Harris
+                  </div>
+                </div>
+                <div class="matches__score tt-3">
+                  3 : 1
+                </div>
+              </div>
+              <div class="matches__item-bottom">
+                <div class="matches__data tx-1">
+                  17.01.2022
+                </div>
+                <div class="matches__data tx-1">
+                  03:10
+                </div>
+              </div>
+            </li>
+            <li class="matches__item">
+              <div class="matches__item-top">
+                <div class="matches__round tx-1">
+                  1st round
+                </div>
+              </div>
+              <div class="matches__item-middle">
+                <div class="matches__teams">
+                  <div class="matches__team tx-1">
+                    <img src="./img/au.png" loading="lazy" width="18" height="12" alt="Australia">
+                    James Duckworth
+                  </div>
+                  <div class="matches__team tx-1">
+                    <img src="./img/fr.png" loading="lazy" width="18" height="12" alt="Fr">
+                    Adrian Mannarino
+                  </div>
+                </div>
+                <div class="matches__score tt-3">
+                  2 : 3
+                </div>
+              </div>
+              <div class="matches__item-bottom">
+                <div class="matches__data tx-1">
+                  17.01.2022
+                </div>
+                <div class="matches__data tx-1">
+                  05:25
+                </div>
+              </div>
+            </li>
+            <li class="matches__item">
+              <div class="matches__item-top">
+                <div class="matches__round tx-1">
+                  1st round
+                </div>
+              </div>
+              <div class="matches__item-middle">
+                <div class="matches__teams">
+                  <div class="matches__team tx-1">
+                    <img src="./img/au.png" loading="lazy" width="18" height="12" alt="Australia">
+                    John Millman
+                  </div>
+                  <div class="matches__team tx-1">
+                    <img src="./img/es.png" loading="lazy" width="18" height="12" alt="Ng">
+                    Feliciano Lopez
+                  </div>
+                </div>
+                <div class="matches__score tt-3">
+                  3 : 1
+                </div>
+              </div>
+              <div class="matches__item-bottom">
+                <div class="matches__data tx-1">
+                  17.01.2022
+                </div>
+                <div class="matches__data tx-1">
+                  11:10
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a class="matches__link but-1" href="matches.php">
+            More
+          </a>
+        </div>
+      </section>
+      <!-- end matches -->
+
+
+      <!-- start about -->
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title tt-2">
+            <span>
+              About Us
+            </span>
+          </h2>
+          <div class="about__content">
+            <div class="about__left">
+              <div class="about__texts">
+                <p class="about__text tx-1">
+                  The sports bar in Australia is considered one of the best establishments in the country due to its
+                  impressive list of drinks. There is a wide selection of beers, wines and cocktails to suit all tastes.
+                  The bar is famous for its exclusive range of drinks, selected from the best producers around the
+                  world.
+                </p>
+                <p class="about__text tx-1">
+                  The owners of the sports bar are proud of their impeccable attitude to quality and service. Attentive
+                  staff ensures that every visitor receives the best service and enjoys the best drinks. The
+                  establishment is known for its meticulous organization, which means diners can expect fast and
+                  efficient order processing.
+                </p>
+              </div>
+              <div class="about__texts">
+                <p class="about__text tx-1">
+                  It is not only the range of drinks that makes this sports bar special, but also its specialization in
+                  sports broadcasting. Every important game or match is broadcast on large screens throughout the bar,
+                  creating an unparalleled atmosphere and the opportunity to watch your favorite teams or sports with
+                  like-minded people.
+                </p>
+                <p class="about__text tx-1">
+                  The best meals and snacks are also offered at the sports bar so that visitors can enjoy delicious food
+                  and complete their sports viewing experience. Delicious burgers, pizzas and appetizers pair perfectly
+                  with your chosen drink, completing a great time.
+                </p>
+              </div>
+            </div>
+            <div class="about__image">
+              <picture>
+                <source media="(min-width: 320px)" srcset="./img/about.webp" type="image/webp">
+                <img src="./img/about.jpg" loading="lazy" width="383" height="397" alt="Image">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+
+      <!-- start tournament -->
+      <section class="tournament">
+        <div class="tournament__container container">
+          <div class="tournament__head">
+            <h2 class="tournament__title tt-2">
+              <span>
+                About the tournament
+              </span>
+              <span class="tt-4">
+                Australia Open
+              </span>
+            </h2>
+            <a class="tournament__link but-1" href="about.php">
+              More
+            </a>
+          </div>
+          <div class="tournament__content">
+            <div class="tournament__left">
+              <div class="tournament__texts">
+                <p class="tournament__text tx-1">
+                  The Australia Open is considered one of the most prestigious tennis tournaments in the world, thanks
+                  to its top roster of entries. It attracts top tennis players and female tennis players from top
+                  professionals to talented newcomers from all over the world.
+                </p>
+                <p class="tournament__text tx-1">
+                  Australia Open is famous for presenting a wide range of the best tennis players and women. Here you
+                  can see the greatest names in the world of tennis such as Roger Federer, Novak Djokovic, Rafael Nadal,
+                  Serena Williams and others. The tournament attracts the most talented athletes, creating an inimitable
+                  competitive atmosphere.
+                </p>
+              </div>
+            </div>
+            <div class="tournament__images">
+              <div class="tournament__image tournament__image_1">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/about-1.webp" type="image/webp">
+                  <img src="./img/about-1.jpg" loading="lazy" width="281" height="291" alt="Image">
+                </picture>
+              </div>
+              <div class="tournament__image tournament__image_2">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/about-2.webp" type="image/webp">
+                  <img src="./img/about-2.jpg" loading="lazy" width="385" height="291" alt="Image">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end tournament -->
+
+      <!-- start contacts -->
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__content">
+            <div class="contacts__left">
+              <h2 class="contacts__title tt-2">
+                <span>
+                  Contact Us
+                </span>
+              </h2>
+              <p class="contacts__text tx-1">
+                Fill in the form we will contact you
+              </p>
+              <form class="form" action="#!" name="form" autocomplete="off">
+                <div class="form__inputs">
+                  <input class="form__input tx-1" type="text" name="text" id="text" placeholder="Name..." required>
+                  <input class="form__input tx-1" type="email" name="email" id="email" placeholder="Email..." required>
+                </div>
+                <button class="form__button but-1" type="submit">
+                  Send
+                </button>
+              </form>
+            </div>
+            <div class="contacts__images">
+              <div class="contacts__image contacts__image_1">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/contacts-1.webp" type="image/webp">
+                  <img src="./img/contacts-1.jpg" loading="lazy" width="281" height="432" alt="Image">
+                </picture>
+              </div>
+              <div class="contacts__image contacts__image_2">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/contacts-2.webp" type="image/webp">
+                  <img src="./img/contacts-2.jpg" loading="lazy" width="362" height="368" alt="Image">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end contacts -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

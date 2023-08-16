@@ -1,0 +1,186 @@
+:root {
+  // Шрифты
+  --font-main: "Sintony", sans-serif; // главный шрифт на странице
+  --font-second: "SansitaSwashed", sans-serif; // главный шрифт на странице
+  // Контейнер
+  --container-width: 1310px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #111; // бекграунд страницы
+  --background-menu: #111;
+  --white: #ffffff;
+
+  --hover: #6d229e; // цвет при ховере
+  --active: #571881; // цвет при активе
+  --hover2: rgba(255, 255, 255, 0.2); // цвет при ховере
+  --active2: rgba(255, 255, 255, 0.43); // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 120px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.webp {
+  & .hero {
+    background-image: url(../../img/hero.webp);
+  }
+
+  & .hotels__cart_1 {
+    background-image: url(../../img/hotels-1.webp);
+  }
+
+  & .hotels__cart_2 {
+    background-image: url(../../img/hotels-2.webp);
+  }
+}
+
+.no-webp {
+  & .hero {
+    background-image: url(../../img/hero.jpg);
+  }
+
+  & .hotels__cart_1 {
+    background-image: url(../../img/hotels-1.jpg);
+  }
+
+  & .hotels__cart_2 {
+    background-image: url(../../img/hotels-2.jpg);
+  }
+}
+
+.tt-1 {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 120%;
+  text-align: center;
+
+  @media (max-width: 1220px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
+.tt-2 {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+
+  @media (max-width: 1220px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 26px;
+  }
+}
+
+.tt-3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+.tx-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.but-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  border: 1px solid var(--white);
+  border-radius: 44px;
+  min-width: 105px;
+  min-height: 54px;
+  width: fit-content;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  color: var(--white);
+  transition: background-color .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--hover2);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--hover2);
+  }
+
+  &:active {
+    background-color: var(--active2);
+    transition-duration: .1s;
+  }
+}

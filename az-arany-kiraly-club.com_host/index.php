@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Das Lua Resort in Ungarn ist ein neues High-Class-Hotel mit besten Konditionen.">
+  <meta property="og:site_name"
+    content="Mit seiner hohen Bewertung ist das Hotel die ideale Wahl für alle, die Komfort suchen. Das Lua Resort bietet stilvolle Zimmer, die mit allem ausgestattet sind, was Sie brauchen.">
+  <meta property="og:url" content="az-arany-kiraly-club.com">
+  <meta property="og:image" content="az-arany-kiraly-club.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Das Lua Resort in Ungarn ist ein neues High-Class-Hotel mit besten Konditionen.">
+  <meta name="twitter:description"
+    content="Mit seiner hohen Bewertung ist das Hotel die ideale Wahl für alle, die Komfort suchen. Das Lua Resort bietet stilvolle Zimmer, die mit allem ausgestattet sind, was Sie brauchen.">
+  <meta name="twitter:site" content="az-arany-kiraly-club.com">
+  <meta name="twitter:image" content="az-arany-kiraly-club.com/main.png">
+  <meta name="description"
+    content="Mit seiner hohen Bewertung ist das Hotel die ideale Wahl für alle, die Komfort suchen. Das Lua Resort bietet stilvolle Zimmer, die mit allem ausgestattet sind, was Sie brauchen.">
+  <title>Das Lua Resort in Ungarn ist ein neues High-Class-Hotel mit besten Konditionen.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/LeagueSpartan-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start popup -->
+      <div class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">Játékainkat 18 éven felüli FELNŐTT közönségnek szánjuk. Kattintson
+            Elfogadva az életkor igazolására.</p>
+          <button class="popup__button">Elfogadott</button>
+        </div>
+      </div>
+      <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__top">
+            <h1 class="hero__title tt-1">
+              Lua Resort - Adults Only
+            </h1>
+            <p class="hero__text tx-2">
+              A Lua Resort egy modern és fényűző nyaralóhely a gyönyörű Magyarországon. Az új és modern belső terek
+              kombinációja magas szintű kényelmet és stílust biztosít.
+            </p>
+          </div>
+          <div class="hero__image">
+            <picture>
+              <source media="(min-width: 320px)" srcset="./img/hero.webp" type="image/webp">
+              <img src="./img/hero.jpg" loading="lazy" width="300" height="300" alt="Image">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start nomers -->
+      <section class="nomers">
+        <div class="container">
+          <div class="nomers__top">
+            <h2 class="nomers__title tt-2">
+              Szállodai szobák
+            </h2>
+          </div>
+          <ul class="nomers__list">
+            <li class="nomers__item nomers__item_1">
+              <div class="nomers__descr">
+                <div class="nomers__text tx-1">
+                  Szám
+                </div>
+                <h3 class="nomers__subtitle tt-3">
+                  Prestige szaunalakosztály
+                </h3>
+              </div>
+            </li>
+            <li class="nomers__item nomers__item_2">
+              <div class="nomers__descr">
+                <div class="nomers__text tx-1">
+                  Szám
+                </div>
+                <h3 class="nomers__subtitle tt-3">
+                  Superior Marina Park kilátással
+                </h3>
+              </div>
+            </li>
+            <li class="nomers__item nomers__item_3">
+              <div class="nomers__descr">
+                <div class="nomers__text tx-1">
+                  Szám
+                </div>
+                <h3 class="nomers__subtitle tt-3">
+                  Deluxe Marina Park kilátással
+                </h3>
+              </div>
+            </li>
+          </ul>
+          <a class="nomers__link but-1" href="nomers.php">
+            Minden szoba
+          </a>
+        </div>
+      </section>
+      <!-- end nomers -->
+
+      <!-- start about -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__top">
+            <h2 class="about__title tt-2">
+              Rólunk
+            </h2>
+          </div>
+          <div class="about__content">
+            <div class="about__images">
+              <div class="about__image about__image_1">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/about-1.webp" type="image/webp">
+                  <img src="./img/about-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+                </picture>
+              </div>
+            </div>
+            <div class="about__right">
+              <p class="about__text tx-1">
+                A Lua Resort egy új luxusszálloda a gyönyörű Magyarországon. A szálloda egyedülálló nyaralási élményt
+                kínál vendégeinek, ötvözi a magas színvonalú szolgáltatást és a hangulatos légkört.
+              </p>
+              <div class="about__bottom">
+                <div class="about__image about__image_2">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/about-2.webp" type="image/webp">
+                    <img src="./img/about-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </div>
+                <div class="about__descr">
+                  <p class="about__text tx-1">
+                    A szálloda kiváló szobák széles választékát kínálja, amelyek mindennel felszereltek, ami a kényelmes
+                    tartózkodáshoz szükséges. Minden szoba a közelmúltban lett felújítva és korszerűsítve a legmagasabb
+                    színvonalon. Ezek a tágas és elegánsan berendezett szobák tökéletes helyet biztosítanak a
+                    kikapcsolódásra és pihenésre.
+                  </p>
+                  <p class="about__text tx-1">
+                    A Lua Resort a látogatók körében magas értékeléséről ismert. A vendégek pozitív visszajelzést adnak
+                    a nagyszerű kiszolgálásról és a barátságos személyzetről, akik mindig készek segíteni bármilyen
+                    kérdésben vagy kérésben. A szálloda szolgáltatások széles skáláját kínálja, hogy a vendégek
+                    élvezhessék tartózkodásuk minden pillanatát.
+                  </p>
+                  <p class="about__text tx-1">
+                    A Lua Resort egyik legfontosabb szempontja a biztonság. A szálloda minden szükséges intézkedést
+                    megtesz vendégei biztonsága érdekében. 24 órás biztonsági szolgálat, különféle térfigyelő kamerák és
+                    beléptető rendszerek biztosítják, hogy a vendégek biztonságban érezzék magukat tartózkodásuk alatt.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+
+      <!-- start zona -->
+      <section class="zona">
+        <div class="container">
+          <div class="zona__top">
+            <h2 class="zona__title tt-2">
+              Pihenőzóna
+            </h2>
+          </div>
+          <div class="zona__content">
+            <div class="zona__content-top">
+              <div class="zona__texts zona__texts_1">
+                <p class="zona__text tx-1">
+                  A magyarországi Lua Resort Hotel relaxációs területe egy új és egyedi tér, amelyet a legjobb modern
+                  technológiák és anyagok felhasználásával hoztak létre. Ezt a környéket a szálloda vendégei nagyra
+                  értékelték luxusa és biztonsága miatt.
+                </p>
+              </div>
+              <a class="zona__link but-1" href="zona.php">
+                Olvass tovább
+              </a>
+            </div>
+            <div class="zona__content-bottom">
+              <div class="zona__images">
+                <div class="zona__image zona__image_1">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/zona-1.webp" type="image/webp">
+                    <img src="./img/zona-1.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </div>
+                <div class="zona__image zona__image_2">
+                  <picture>
+                    <source media="(min-width: 320px)" srcset="./img/zona-2.webp" type="image/webp">
+                    <img src="./img/zona-2.jpg" loading="lazy" width="300" height="300" alt="Image">
+                  </picture>
+                </div>
+              </div>
+              <div class="zona__texts">
+                <p class="zona__text tx-1">
+                  Itt relaxációs kezelések és profi szakemberek által nyújtott szolgáltatások széles skáláját élvezhetik
+                  a vendégek. A legújabb technikáknak és eredeti megközelítéseknek köszönhetően minden vendég teljes
+                  mértékben ellazulhat, helyreállíthatja energiáját és egyedülálló gyógyfürdői élményben lesz része.
+                </p>
+                <p class="zona__text tx-1">
+                  A Lua Resort relaxációs részlege masszázsok széles választékát kínálja a mélyszöveti masszázstól a
+                  thai masszázsig, valamint speciális arc- és testkezeléseket. A vendégek részt vehetnek egy
+                  aromaterápiás kezelésen, meglátogathatják a szoláriumot, vagy lazíthatnak a pezsgőfürdőben.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end zona -->
+
+      <!-- start contacts -->
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__top">
+            <h2 class="contacts__title tt-2">
+              Foglald le most
+            </h2>
+          </div>
+          <div class="contacts__content">
+            <div class="contacts__left">
+              <div class="contacts__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/contacts.webp" type="image/webp">
+                  <img src="./img/contacts.jpg" loading="lazy" width="300" height="300" alt="Image">
+                </picture>
+              </div>
+              <form class="form" action="#!" name="form" autocomplete="off">
+                <div class="form__inputs">
+                  <input class="form__input tx-1" type="text" name="text" id="text" placeholder="Su nombre..." required>
+                  <input class="form__input tx-1" type="email" name="email" id="email"
+                    placeholder="Tu correo electrónico..." required>
+                </div>
+                <button class="form__button but-1" type="submit">
+                  Küld
+                </button>
+              </form>
+            </div>
+            <div class="contacts__texts">
+              <p class="contacts__text tx-1">
+                Élvezze a luxus tartózkodást Lua Resort Hotelünkben, amely egy új és vonzó magyarországi nyaralóhely. A
+                speciálisan kialakított, modern belső terekkel rendelkező szobák maximális kényelmet és a legmagasabb
+                igényeket is kielégítik. Hálával vesszük tudomásul a legjobb vendégek pozitív értékeléseit, amelyek
+                kiemelik magas értékelésünket.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end contacts -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

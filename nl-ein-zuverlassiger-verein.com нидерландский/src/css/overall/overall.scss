@@ -1,0 +1,232 @@
+:root {
+  // Шрифты
+  --font-main: "Kanit", sans-serif; // главный шрифт на странице
+  --font-second: "Jost", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1220px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #fffdf8; // бекграунд страницы
+  --background-menu: #fffdf8;
+  --green: #1D887B;
+  --white: #ffffff;
+  --black: #000000;
+
+  --hover: #1B7166; // цвет при ховере
+  --active: #12554D; // цвет при активе
+  --hover2: rgba(29, 136, 123, .38); // цвет при ховере
+  --active2: #1D887B; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 120px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.tt-1 {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 120%;
+  color: var(--black);
+
+  @media (max-width: 1220px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
+.tt-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--green);
+  text-align: center;
+
+  &::before {
+    content: "";
+    display: block;
+    flex: 0 1 160px;
+    height: 1px;
+    background-color: var(--green);
+
+    @media (max-width: 991px) {
+      flex: 0 1 100px;
+    }
+
+    @media (max-width: 600px) {
+      flex: 0 1 40px;
+    }
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    flex: 0 1 160px;
+    height: 1px;
+    background-color: var(--green);
+
+    @media (max-width: 991px) {
+      flex: 0 1 100px;
+    }
+
+    @media (max-width: 600px) {
+      flex: 0 1 40px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+.tt-3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--black);
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+.tt-4 {
+  font-family: var(--font-second);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--black);
+
+  @media (max-width: 1220px) {
+    font-size: 34px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.tt-5 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  color: var(--black);
+
+  @media (max-width: 991px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.tx-1 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black);
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.but-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  background-color: var(--green);
+  border-radius: 25px;
+  width: fit-content;
+  min-width: 128px;
+  min-height: 54px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  color: var(--white);
+}
+
+.but-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  border: 1px solid var(--green);
+  border-radius: 25px;
+  width: fit-content;
+  min-width: 128px;
+  min-height: 54px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  color: var(--green);
+}

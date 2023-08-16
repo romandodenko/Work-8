@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sportsbar i Norge med eksklusiv energi og de beste kampene.">
+  <meta property="og:site_name"
+    content="Den høyt rangerte sportsbaren i Norge regnes som en av de beste i sin klasse og vil appellere til enhver sportsfan. Med sin minneverdige atmosfære og et bredt utvalg av underholdning.">
+  <meta property="og:url" content="clubspilleautomat.com">
+  <meta property="og:image" content="clubspilleautomat.com/main.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sportsbar i Norge med eksklusiv energi og de beste kampene.">
+  <meta name="twitter:description"
+    content="Den høyt rangerte sportsbaren i Norge regnes som en av de beste i sin klasse og vil appellere til enhver sportsfan. Med sin minneverdige atmosfære og et bredt utvalg av underholdning.">
+  <meta name="twitter:site" content="clubspilleautomat.com">
+  <meta name="twitter:image" content="clubspilleautomat.com/main.png">
+  <meta name="description"
+    content="Den høyt rangerte sportsbaren i Norge regnes som en av de beste i sin klasse og vil appellere til enhver sportsfan. Med sin minneverdige atmosfære og et bredt utvalg av underholdning.">
+  <title>Sportsbar i Norge med eksklusiv energi og de beste kampene.</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/LeagueSpartan-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Manrope-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Manrope-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+      <!-- start popup -->
+      <div class="popup popup-active" id="popup">
+        <div class="popup__close"></div>
+        <div class="popup__body">
+          <p class="popup__text">Spillene våre er beregnet på et VOKSENt publikum over 18 år. Klikk
+            Akseptert for å bekrefte alderen din.</p>
+          <button class="popup__button">Akseptert</button>
+        </div>
+      </div>
+      <!-- end popup -->
+
+      <!-- start hero -->
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__descr">
+            <h1 class="hero__title tt-1">
+              Sportsbar med spesiell energi
+            </h1>
+            <p class="hero__text tx-2">
+              En høyt rangert sportsbar i Norge, vi tilbyr de beste forholdene for elskere av sport og god mat. Det
+              tilbyr et bredt utvalg av mat og drikke, samt en flott atmosfære for å se sportsbegivenheter.
+            </p>
+            <ul class="hero__list">
+              <li class="hero__item">
+                <a class="hero__link hero__link_1 but-1" href="events.php">
+                  Fotballarrangementer
+                </a>
+              </li>
+              <li class="hero__item">
+                <a class="hero__link hero__link_2 but-1" href="contacts.php">
+                  Kontakter
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start events -->
+      <section class="events">
+        <div class="container">
+          <h2 class="events__title tt-2">
+            <span>Fotballarrangementer</span>
+          </h2>
+          <ul class="events__list">
+            <li class="events__item">
+              <div class="events__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/event-1.webp" type="image/webp">
+                  <img src="./img/event-1.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+                <div class="events__data tx-1">
+                  <span>11.09.2023</span>
+                </div>
+              </div>
+              <div class="events__descr">
+                <a class="events__subtitle tt-3" href="event-1.php">
+                  Norge - Georgia
+                </a>
+                <a class="events__link but-1" href="event-1.php">
+                  Mer
+                </a>
+              </div>
+            </li>
+            <li class="events__item">
+              <div class="events__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/event-2.webp" type="image/webp">
+                  <img src="./img/event-2.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+                <div class="events__data tx-1">
+                  <span>12.10.2023</span>
+                </div>
+              </div>
+              <div class="events__descr">
+                <a class="events__subtitle tt-3" href="event-2.php">
+                  Norge - Kypros
+                </a>
+                <a class="events__link but-1" href="event-2.php">
+                  Mer
+                </a>
+              </div>
+            </li>
+            <li class="events__item">
+              <div class="events__image">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/event-3.webp" type="image/webp">
+                  <img src="./img/event-3.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+                <div class="events__data tx-1">
+                  <span>15.10.2023</span>
+                </div>
+              </div>
+              <div class="events__descr">
+                <a class="events__subtitle tt-3" href="event-3.php">
+                  Norge - Spania
+                </a>
+                <a class="events__link but-1" href="event-3.php">
+                  Mer
+                </a>
+              </div>
+            </li>
+          </ul>
+          <a class="events__all but-1" href="events.php">
+            Alle arrangementer
+          </a>
+        </div>
+      </section>
+      <!-- end events -->
+
+      <!-- start about -->
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title tt-2">
+            Om baren vår
+          </h2>
+          <div class="about__descr">
+            <p class="about__text tx-1">
+              Sportsbaren vår i Norge er et ikonisk sted, som kun arrangerer de aller beste sportsbegivenhetene og tar
+              imot et eksepsjonelt stort publikum. Vi er stolte av vår høye karakter, som vi fikk fra de beste
+              idrettslagene og de mest krevende besøkende.
+            </p>
+            <p class="about__text tx-1">
+              I vår sportsbar kan du nyte profesjonell kringkasting av de viktigste kampene og konkurransene i ulike
+              disipliner. Her finner du alt du trenger for en uforglemmelig sportsopplevelse: store skjermer,
+              høykvalitets lydutstyr og komfortable visningsområder. Vi tilbyr også et bredt utvalg av drinker og
+              appetittvekkende snacks som du kan nyte under arrangementene dine.
+            </p>
+            <p class="about__text tx-1">
+              Fra de beste idrettslagene til de mest dedikerte fansen, har sportsbaren vår blitt et reisemål for alle
+              som leter etter uforglemmelige sportsopplevelser og førsteklasses fest. Vi har skapt en unik atmosfære som
+              imponerer selv de mest sofistikerte sportskjennere.
+            </p>
+            <p class="about__text tx-1">
+              Ta en titt på vår sportsbar og se selv hvordan den beste kombinasjonen av sport og underholdning kan gjøre
+              en vanlig dag til en minneverdig begivenhet. Teamet vårt ser frem til å dele din lidenskap for sporten og
+              gi deg en uforglemmelig opplevelse hver gang du besøker.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+
+      <!-- start contacts -->
+      <section class="contacts">
+        <div class="container">
+          <h2 class="contacts__title tt-2">
+            Abonnere
+          </h2>
+          <div class="contacts__content">
+            <div class="contacts__left">
+              <p class="contacts__text tx-2">
+                Abonner på våre oppdateringer og motta de siste nyhetene og kunngjøringene. Hold deg oppdatert på alle
+                sportsbegivenheter.
+              </p>
+              <form class="form" action="#!" name="form" autocomplete="off">
+                <input class="form__input tx-1" type="text" name="text" id="text" placeholder="Navn..." required>
+                <input class="form__input tx-1" type="email" name="email" id="email" placeholder="Post..." required>
+                <button class="form__button but-1" type="submit">
+                  Sende
+                </button>
+              </form>
+            </div>
+            <ul class="contacts__images">
+              <li class="contacts__image contacts__image_1">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/contacts-1.webp" type="image/webp">
+                  <img src="./img/contacts-1.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+              </li>
+              <li class="contacts__image contacts__image_2">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="./img/contacts-2.webp" type="image/webp">
+                  <img src="./img/contacts-2.jpg" loading="lazy" width="300" height="300" alt="image">
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end contacts -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>
